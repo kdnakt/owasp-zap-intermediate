@@ -27,4 +27,4 @@ jobs:
         with:
           docker_name: 'owasp/zap2docker-stable'
           target: 'http://localhost:50080/'
-          cmd_options: '-a -d'
+          cmd_options: '-a -d -n localhost50080.context -U stw'
